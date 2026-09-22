@@ -20,10 +20,10 @@ In this lab we applied the SOP and POS to a truth table (via KMap), as well as v
 ## Lab Questions
 
 ### Why are the groups of 1’s (or 0’s) that we select in the KMap able to go across edges?
-They are able to go across edges because of the wrap around effect. The edges of the map are functionally adjacent to each other. 
+-They are able to go across edges because of the wrap around effect. The edges of the map are functionally adjacent to each other. 
 
 ### Why are the names Sum of Products and Products of Sums?
-They are named this way because that is how they are treated. In POS we have sum terms and in SOP we have product terms, and then we sum the product terms together for SOP and create a product of the sum terms in POS. This means we have a product of sum terms, or the POS, and a sum of product terms, or SOP.
+-They are named this way because that is how they are treated. In POS we have sum terms and in SOP we have product terms, and then we sum the product terms together for SOP and create a product of the sum terms in POS. This means we have a product of sum terms, or the POS, and a sum of product terms, or SOP.
 
 ### Open the test.v file – how are we able to check that the signals match using XOR?
-We are able to check that they match with XOR functions because then we can isolate the instances where the outputs don’t align. If the LEDs for the naive and minterm are both on or both off, for example, then the XOR provides a zero, and we know that they match. If one is off while the other is on, however, then the XOR provides a one and we know that they must have different values to provide that output.
+-We are able to check that they match with XOR functions because then we can isolate the instances where the outputs don’t align. If the LEDs for the naive and minterm are both on or both off, for example, then the XOR provides a zero, and we know that they match. If one is off while the other is on, however, then the XOR provides a one and we know that they must have different values to provide that output.
